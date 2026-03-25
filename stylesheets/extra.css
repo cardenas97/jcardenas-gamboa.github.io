@@ -1,0 +1,21 @@
+/* Hide the table of contents sidebar */
+.md-sidebar--secondary {
+    display: none;
+}
+
+/* Hide the page title (the big heading at the top) */
+.md-content h1:first-of-type {
+    display: none;
+}
+
+/* Adjust the main content to take full width */
+@media screen and (min-width: 76.25em) {
+    .md-main__inner {
+        margin-right: 0;
+    }
+    
+    .md-content {
+        margin-right: 0;
+        width: 100%;
+    }
+}
